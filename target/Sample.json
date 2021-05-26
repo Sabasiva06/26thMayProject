@@ -1,0 +1,227 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4575733400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adacting page",
+            "match": {
+              "location": "StepDef.userIsOnAdactingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248735900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter username and password",
+            "match": {
+              "location": "StepDef.userShouldEnterUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637955400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "StepDef.userShouldClickLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 729900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookesClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Booking with Fields marked with Red asterix are mandatory",
+        "description": "",
+        "id": "validating-adacting-hotel-page;booking-with-fields-marked-with-red-asterix-are-mandatory",
+        "after": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookesClass.afterSceanrio()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 371888600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on Serach page need to enter Select location , noofroom,cid,cod,adult per room",
+            "match": {
+              "location": "StepDef.userOnSerachPageNeedToEnterSelectLocationNoofroomCidCodAdultPerRoom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413807800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User need to clik search button",
+            "match": {
+              "location": "StepDef.userNeedToClikSearchButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3936287500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adacting page",
+            "match": {
+              "location": "StepDef.userIsOnAdactingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150650200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter username and password",
+            "match": {
+              "location": "StepDef.userShouldEnterUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617813600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "StepDef.userShouldClickLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 208400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookesClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Booking with Fileds Without marked with Red asterix",
+        "description": "",
+        "id": "validating-adacting-hotel-page;booking-with-fileds-without-marked-with-red-asterix",
+        "after": [
+          {
+            "result": {
+              "duration": 58600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookesClass.afterSceanrio()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 194372200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user need to select hotels,roomtype,child per room",
+            "match": {
+              "location": "StepDef.userNeedToSelectHotelsRoomtypeChildPerRoom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49546300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user need to proceed search button",
+            "match": {
+              "location": "StepDef.userNeedToProceedSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user need to validate error message",
+            "match": {
+              "location": "StepDef.userNeedToValidateErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Adacting Hotel page",
+    "description": "",
+    "id": "validating-adacting-hotel-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]

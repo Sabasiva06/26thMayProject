@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.200675">
+<testcase classname="Validating Adacting Hotel page" name="Booking with Fields marked with Red asterix are mandatory" time="6.251177">
+<system-out><![CDATA[Given user is on Adacting page..............................................passed
+When user should enter username and password................................passed
+And User should click login button..........................................passed
+When user on Serach page need to enter Select location , noofroom,cid,cod,adult per room.passed
+And User need to clik search button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Adacting Hotel page" name="Booking with Fileds Without marked with Red asterix" time="4.949498">
+<system-out><![CDATA[Given user is on Adacting page..............................................passed
+When user should enter username and password................................passed
+And User should click login button..........................................passed
+When user need to select hotels,roomtype,child per room.....................passed
+And user need to proceed search button......................................passed
+Then user need to validate error message....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
