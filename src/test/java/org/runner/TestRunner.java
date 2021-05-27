@@ -24,5 +24,17 @@ public class TestRunner {
 		ReportGeneration.generateJVMReport("C:\\Users\\vels\\eclipse-workspace\\CucumberSample\\target\\Sample.json");
 
 	}
+	
+	private void tc1() {
+		
+
+	}
+	private void tc2() {
+		
+
+	}
+	private void tc3() {
+		
+	}
 
 }
